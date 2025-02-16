@@ -1,0 +1,29 @@
+theme = "ayu_evolve"
+
+[editor]
+scrolloff = 5
+line-number = "relative"
+cursorline = true
+color-modes = true
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control"]
+center = ["read-only-indicator", "file-name", "file-modification-indicator"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "SEL"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.file-picker]
+hidden = true
+
+[editor.indent-guides]
+render = true
+character = "┇"
+skip-levels = 1
